@@ -1,4 +1,3 @@
-```python
 """StudyMate AI agents powered by Google Gemini."""
 
 from __future__ import annotations
@@ -222,4 +221,3 @@ def ask_study(
         tool_used=True,
         passages_retrieved=len(hits),
     )
-```
