@@ -97,7 +97,7 @@ def build_model() -> GeminiModel:
         return GeminiModel(
             client_args={"api_key": get_api_key()},
             model_id=os.getenv("GEMINI_MODEL_ID", DEFAULT_MODEL_ID),
-            params={"temperature": 0.3, "max_output_tokens": 1500},
+           params={"temperature": 0.3, "max_output_tokens": 4096},
         )
     except AgentCallError:
         raise
