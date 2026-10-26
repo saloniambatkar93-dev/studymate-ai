@@ -1,0 +1,23 @@
+# Secrets - never commit these
+.env
+*.pem
+.aws/
+credentials
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local data
+data/local_docs/
+sample_pdfs/
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
