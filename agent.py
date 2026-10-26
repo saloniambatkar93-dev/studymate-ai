@@ -12,7 +12,7 @@ from strands.models.gemini import GeminiModel
 from tools import NotesIndex, RetrievalLog, run_search
 
 
-DEFAULT_MODEL_ID = "gemini-3.6-flash"
+DEFAULT_MODEL_ID = "gemini-3.8-flash"
 
 BASELINE_PROMPT = """
 You are StudyMate AI, a friendly study assistant.
